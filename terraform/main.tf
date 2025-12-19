@@ -63,3 +63,4 @@ resource "aws_s3_object" "html" {
     aws_s3_bucket_policy.public_policy
   ]
 }
+
