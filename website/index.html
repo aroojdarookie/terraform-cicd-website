@@ -1,1 +1,132 @@
-<h1>My Website</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My CI/CD Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.25);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #333333;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #764ba2;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: #764ba2;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #5a3c8a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 My CI/CD Website</h1>
+    <p>Deployed automatically using Terraform + GitHub Actions</p>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <h2>About This Project</h2>
+      <p>
+        This website is deployed on <strong>AWS S3</strong> using
+        <strong>Terraform</strong> and automatically updated through a
+        <strong>CI/CD pipeline</strong>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>AWS S3 (Static Website Hosting)</li>
+        <li>Terraform (Infrastructure as Code)</li>
+        <li>GitHub Actions (CI/CD)</li>
+        <li>HTML & CSS</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Deployment Status</h2>
+      <p>✅ Pipeline is running successfully!</p>
+      <a class="button" 
+href="https://github.com/aroojdarookie/terraform-cicd-website" 
+target="_blank">
+        View GitHub Repo
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Updated at: 2025-12-19</p>
+  </footer>
+
+</body>
+</html>
+
